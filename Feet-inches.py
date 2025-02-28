@@ -10,12 +10,11 @@ inches = int(input("...and how many inches?"))
 #Math happens on right side of equal side
 #Remember PEMDAS
 meters = (feet * 0.3048) + (inches * 0.0254)
+apples = (meters / 0.06)
 
 print("In meters, you are: " + str(meters) + " tall.")
 
-apples = (meters / 0.06)
-
-print("You are: " + str(apples) + " tall.")
+print("You are also: " + str(apples) + " apples tall.")
 
 #str --> "String"
 #float --> decimal number
